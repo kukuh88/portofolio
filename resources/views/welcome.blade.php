@@ -73,7 +73,7 @@
     </header><!-- End Header -->
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about" style="background: #ffffff21">
+    <section id="about" class="about" style="background-tra: #ffffff21">
 
         <!-- ======= About Me ======= -->
         <div class="about-me container">
