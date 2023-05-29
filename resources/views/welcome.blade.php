@@ -42,7 +42,7 @@
 <body>
 
     <!-- ======= Header ======= -->
-    <header id="header">
+    <header id="header" style="background: #1d596e00">
         <div class="container">
 
             <h1><a href="index.html">Kukuh Kurniawan</a></h1>
@@ -73,14 +73,14 @@
     </header><!-- End Header -->
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+    <section id="about" class="about" style="background: #ffffff21">
 
         <!-- ======= About Me ======= -->
         <div class="about-me container">
 
             <div class="section-title">
                 <h2>About</h2>
-                <p>Kukuh</p>
+                <p>LEARN MORE ABOUT ME</p>
             </div>
 
             <div class="row">
@@ -97,27 +97,27 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <ul>
-                                <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May
-                                        1995</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>11 Okt
+                                        1999</span></li>
                                 <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
-                                    <span>www.example.com</span>
+                                    <span>www.asahskill.com</span>
                                 </li>
-                                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456
-                                        7890</span></li>
-                                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York,
-                                        USA</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+62 822 8302
+                                        1796</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Indonesia,
+                                        Bangka Belitung</span></li>
                             </ul>
                         </div>
                         <div class="col-lg-6">
                             <ul>
-                                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-                                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>23</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Employee</span>
                                 </li>
                                 <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong>
-                                    <span>email@example.com</span>
+                                    <span>kukuh@easahskill.com</span>
                                 </li>
                                 <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong>
-                                    <span>Available</span>
+                                    <span>Music</span>
                                 </li>
                             </ul>
                         </div>
