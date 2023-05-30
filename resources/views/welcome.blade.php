@@ -11,7 +11,7 @@
 
     <!-- Favicons -->
     <link href="{{ asset('assets/img/favicon.png') }}" rel="icon">
-    <link href="{{ asset('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+    <link href="{{ asset('assets/img/kukuh.png') }}" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link
@@ -63,10 +63,16 @@
             </nav><!-- .navbar -->
 
             <div class="social-links">
-                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                <a href="https://twitter.com/DENJAKAAL88" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.facebook.com/kukuh.kurniawan.7796" class="facebook"><i
+                        class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/k.kukuh/?r=nametag%2F" class="instagram"><i
+                        class="bi bi-instagram"></i></a>
+                <a href="https://github.com/kukuh88" class="google-plus"><i class="bi bi-github"></i></a>
+                <a href="https://www.youtube.com/channel/UCC-gyQvScZ2KTGtTP1QbmkQ" class="google-plus"><i
+                        class="bi bi-youtube"></i></a>
+                <a href="https://www.linkedin.com/in/kukuh-kurniawan-316552270/" class="linkedin"><i
+                        class="bi bi-linkedin"></i></a>
             </div>
 
         </div>
@@ -429,7 +435,7 @@
 
             </div>
 
-        </div><!-- End Testimonials  -->
+        </div> <!-- End Testimonials  -->
 
     </section><!-- End About Section -->
 
@@ -603,13 +609,16 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                     <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+                        <img src="{{ asset('assets/img/portfolio/app_vipfutsal.jpg') }}" class="img-fluid"
+                            alt="">
                         <div class="portfolio-info">
-                            <h4>App 1</h4>
-                            <p>App</p>
+                            <h4>APPLIKASI MOBILE M-VIP FUTSAL</h4>
+                            <p>APPLICATION</p>
                             <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                                <a href="{{ asset('assets/img/portfolio/dashboard_vipfutsal.jpg') }}"
+                                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                                    title="App ini dibuat bertujuan untuk melancarkan pembooking futsal, dikarenakan sangat banyak bermain futsal dan hal-hasilnya admin sangat kelelahan dalam menangani para konsumen, disinilah saya membuatkan aplikasi ini untuk mempermudah pembookingan, disini saya membuatnya dengan AndroidStudio Bahasa Pemograman Java"><i
+                                        class="bx bx-plus"></i></a>
                                 <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery"
                                     data-glightbox="type: external" class="portfolio-details-lightbox"
                                     title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -620,14 +629,17 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                     <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+                        <img src="{{ asset('assets/img/portfolio/inventaris_login.PNG') }}" class="img-fluid"
+                            alt="">
                         <div class="portfolio-info">
-                            <h4>Web 3</h4>
-                            <p>Web</p>
+                            <h4>INVENTARIS-IT</h4>
+                            <p>WEBSITE</p>
                             <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery"
+                                <a href="{{ asset('assets/img/portfolio/dashboard_inventaris.PNG') }}"
+                                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                                    title="Website ini di buat untuk dilakukan pendataan pada sebuah perangkat kantor yang tidak di salahgunakan oleh oknum tertentu dan disini saya menggunakan bahasa pemograman CodeIgniter 3"><i
+                                        class="bx bx-plus"></i></a>
+                                <a href="https://inventaris-it.ptdak.co.id/" data-gallery="portfolioDetailsGallery"
                                     data-glightbox="type: external" class="portfolio-details-lightbox"
                                     title="Portfolio Details"><i class="bx bx-link"></i></a>
                             </div>
@@ -637,13 +649,16 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                     <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+                        <img src="{{ asset('assets/img/portfolio/scan_qrcodeinventaris.jpg') }}" class="img-fluid"
+                            alt="">
                         <div class="portfolio-info">
-                            <h4>App 2</h4>
-                            <p>App</p>
+                            <h4>SCAN QR-CODE INVENTARIS</h4>
+                            <p>APPLICATION</p>
                             <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                                <a href="{{ asset('assets/img/portfolio/scan_here.jpg') }}"
+                                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                                    title="App ini dibuat karena banyak komputer kantor yang belum terdata dan juga masih banyak melempar alat alat kantor ke temannya, bisa juga di salahgunakan dikarenakan tidak terdeteknya alat alat tersebut, jadi dibuatkan sistem ini untuk melakukan pengecekan qr-code pada nomor inventaris dan juga pada bagian keterangan atau history laptop atau komputer itu sendiri disini saya membuatnya dengan AndroidStudio Bahasa Pemograman Java"><i
+                                        class="bx bx-plus"></i></a>
                                 <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery"
                                     data-glightbox="type: external" class="portfolio-details-lightbox"
                                     title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -671,13 +686,16 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                     <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+                        <img src="{{ asset('assets/img/portfolio/sdm login.PNG') }}" class="img-fluid"
+                            alt="">
                         <div class="portfolio-info">
-                            <h4>Web 2</h4>
-                            <p>Web</p>
+                            <h4>SDM</h4>
+                            <p>WEBSITE</p>
                             <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                                <a href="{{ asset('assets/img/portfolio/dashboard_sdm.PNG') }}"
+                                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                                    title="Website SDM ini di buat untuk bertujuan untuk melakukan remainder, pada karyawan untuk setiap kenaikan golongan ataupun pensiun, disini saya menggunakan bahasa pemograman laravel 8 "><i
+                                        class="bx bx-plus"></i></a>
                                 <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery"
                                     data-glightbox="type: external" class="portfolio-details-lightbox"
                                     title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -739,13 +757,16 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                     <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+                        <img src="{{ asset('assets/img/portfolio/dashboard_ecommerce.PNG') }}" class="img-fluid"
+                            alt="">
                         <div class="portfolio-info">
-                            <h4>Web 3</h4>
-                            <p>Web</p>
+                            <h4>E-COMMDAK</h4>
+                            <p>WEBSITE</p>
                             <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                                <a href="{{ asset('assets/img/portfolio/spek_kapal.PNG') }}"
+                                    data-gallery="portfolioGallery" class="portfolio-lightbox"
+                                    title="Website ini dibuat untuk bertujuan untuk menjual produk kapal pada perusahaan PT DOK DAN PERKAPALA AIR KANTUNG BANGKA, yang berbasis E-Commerce dan bisa di akses dimana saja, disini menggunakan bahasa pemograman Laravel 9"><i
+                                        class="bx bx-plus"></i></a>
                                 <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery"
                                     data-glightbox="type: external" class="portfolio-details-lightbox"
                                     title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -774,7 +795,7 @@
                     <div class="info-box">
                         <i class="bx bx-map"></i>
                         <h3>My Address</h3>
-                        <p>A108 Adam Street, New York, NY 535022</p>
+                        <p>Indonesia, Bangka Belitung, No 146</p>
                     </div>
                 </div>
 
@@ -783,11 +804,17 @@
                         <i class="bx bx-share-alt"></i>
                         <h3>Social Profiles</h3>
                         <div class="social-links">
-                            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                            <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-                            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://twitter.com/DENJAKAAL88" class="twitter"><i
+                                    class="bi bi-twitter"></i></a>
+                            <a href="https://www.facebook.com/kukuh.kurniawan.7796" class="facebook"><i
+                                    class="bi bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/k.kukuh/?r=nametag%2F" class="instagram"><i
+                                    class="bi bi-instagram"></i></a>
+                            <a href="https://github.com/kukuh88" class="google-plus"><i class="bi bi-github"></i></a>
+                            <a href="https://www.youtube.com/channel/UCC-gyQvScZ2KTGtTP1QbmkQ" class="google-plus"><i
+                                    class="bi bi-youtube"></i></a>
+                            <a href="https://www.linkedin.com/in/kukuh-kurniawan-316552270/" class="linkedin"><i
+                                    class="bi bi-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
@@ -796,14 +823,14 @@
                     <div class="info-box">
                         <i class="bx bx-envelope"></i>
                         <h3>Email Me</h3>
-                        <p>contact@example.com</p>
+                        <p>kukuh@easahskill.com</p>
                     </div>
                 </div>
                 <div class="col-md-6 mt-4 d-flex align-items-stretch">
                     <div class="info-box">
                         <i class="bx bx-phone-call"></i>
                         <h3>Call Me</h3>
-                        <p>+1 5589 55488 55</p>
+                        <p>+62 822 8302 1796</p>
                     </div>
                 </div>
             </div>
@@ -842,7 +869,7 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
-        Designed by <a href="#">Kukuh Kurniawan</a>
+        Designed by <a href="https://photos.app.goo.gl/sLAuaa6pp6i7fUGVA">Kukuh Kurniawan</a>
     </div>
 
     <!-- Vendor JS Files -->
