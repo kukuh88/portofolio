@@ -73,10 +73,10 @@
     </header><!-- End Header -->
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about" style="background-tra: #ffffff21">
+    <section id="about" class="about">
 
         <!-- ======= About Me ======= -->
-        <div class="about-me container">
+        <div class="about-me container" style="background-color: #ffffff2e;">
 
             <div class="section-title">
                 <h2>About</h2>
@@ -135,7 +135,7 @@
         </div><!-- End About Me -->
 
         <!-- ======= Counts ======= -->
-        <div class="counts container">
+        <div class="counts container" style="background-color: #ffffff2e;">
 
             <div class="row">
 
@@ -180,7 +180,7 @@
         </div><!-- End Counts -->
 
         <!-- ======= Skills  ======= -->
-        <div class="skills container">
+        <div class="skills container" style="background-color: #ffffff2e;">
 
             <div class="section-title">
                 <h2>Skills</h2>
@@ -249,7 +249,7 @@
         </div><!-- End Skills -->
 
         <!-- ======= Interests ======= -->
-        <div class="interests container">
+        <div class="interests container" style="background-color: #ffffff2e;">
 
             <div class="section-title">
                 <h2>Interests</h2>
@@ -333,7 +333,7 @@
         </div><!-- End Interests -->
 
         <!-- ======= Testimonials ======= -->
-        <div class="testimonials container">
+        <div class="testimonials container" style="background-color: #ffffff2e;">
 
             <div class="section-title">
                 <h2>Testimonials</h2>
@@ -435,7 +435,7 @@
 
     <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume">
-        <div class="container">
+        <div class="container" style="background-color: #ffffff2e;">
 
             <div class="section-title">
                 <h2>Resume</h2>
@@ -518,7 +518,7 @@
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
-        <div class="container">
+        <div class="container" style="background-color: #ffffff2e;">
 
             <div class="section-title">
                 <h2>Services</h2>
@@ -581,7 +581,7 @@
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
-        <div class="container">
+        <div class="container" style="background-color: #ffffff2e;">
 
             <div class="section-title">
                 <h2>Portfolio</h2>
@@ -761,7 +761,7 @@
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
-        <div class="container">
+        <div class="container" style="background-color: #ffffff2e;">
 
             <div class="section-title">
                 <h2>Contact</h2>
