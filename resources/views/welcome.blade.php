@@ -73,6 +73,8 @@
                         class="bi bi-youtube"></i></a>
                 <a href="https://www.linkedin.com/in/kukuh-kurniawan-316552270/" class="linkedin"><i
                         class="bi bi-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/kukuh-kurniawan-316552270/" class="linkedin"><i
+                        class="bi bi-linkedin"></i></a>
             </div>
 
         </div>
@@ -96,9 +98,8 @@
                 <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
                     <h3>IT Programmer</h3>
                     <p class="fst-italic">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore
-                        magna aliqua.
+                        I have various talents and am an informatics engineering graduate since I enjoy learning new
+                        things.
                     </p>
                     <div class="row">
                         <div class="col-lg-6">
@@ -129,11 +130,14 @@
                         </div>
                     </div>
                     <p>
-                        Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci
-                        omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-                        Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque
-                        neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni
-                        laudantium dolores.
+                        I am the third of three siblings, and I am the one who is most curious about new things and
+                        enjoys disassembling unusual items like computers, laptops, and so forth. However, I studied
+                        programming in college, which I found to be very interesting, and I was also interested in the
+                        world of networks because I am a network and computer engineer. As a result, I want to pursue a
+                        career in information technology, but I find it challenging to learn theory and programming
+                        languages. I used to solely learn HTML, but now I've learnt a lot more and have finally
+                        discovered who I am. before graduating I was trying to work in a company at the moment and still
+                        learning about programmers and others.
                     </p>
                 </div>
             </div>
@@ -233,7 +237,7 @@
                     </div>
 
                     <div class="progress">
-                        <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+                        <span class="skill">laravel <i class="val">90%</i></span>
                         <div class="progress-bar-wrap">
                             <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
                                 aria-valuemax="100"></div>
@@ -241,7 +245,7 @@
                     </div>
 
                     <div class="progress">
-                        <span class="skill">Photoshop <i class="val">55%</i></span>
+                        <span class="skill">CodeIgniter <i class="val">75%</i></span>
                         <div class="progress-bar-wrap">
                             <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0"
                                 aria-valuemax="100"></div>
@@ -265,7 +269,7 @@
                 <div class="col-lg-3 col-md-4">
                     <div class="icon-box">
                         <i class="ri-store-line" style="color: #ffbb2c;"></i>
-                        <h3>Lorem Ipsum</h3>
+                        <h3>Laravel</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
